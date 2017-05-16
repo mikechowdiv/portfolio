@@ -12,7 +12,7 @@ Lastly, we did not learn deployment, so I have been working through deployment o
 ----------
 
 
-  [DVD Library Database & Web API](https://github.com/mikechowdiv/DvdLibrary/) 
+  [DVD Library Database & Web API](http://dvd-library-app.apphb.com/) 
 
 > This was a web app I built using database objects and interacting with them using the C# database access techniques of ADO.NET and Dapper.  The frontend was done using HTML/CSS/Javascript and the database interaction through an ASP.NET Web API project.
 > 
