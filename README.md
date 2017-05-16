@@ -44,26 +44,34 @@ Lastly, we did not learn deployment, so I have been working through deployment o
 ----------
 
 
- [Address Book App](http://addressbook-guildwork.rhcloud.com/) 
+ [Shack-Up App](http://shack-app.apphb.com/) 
 
-> This is a basic address book application that allows you to add someone's street address and phone number to a live back-end database. Strangely, it has no field for an email address (this was not a requirement). For this reason, my pairing partner and I decided to make it a "vintage" address book.   (Entertaining ourselves with irony.) We used Bootstrap for the layout.
+> This application was to create a a site, "Shack Up!" which allows people to list their shacks on their properties for people to express interest in to rent. Like an AirBNB for people who like to rough it in shacks.
 > 
-> This app was a really fun one to work on, as my pairing partner was hilarious. So we managed to learn a lot and have fun at the same time. That is actually my ideal work environment. 
+> **Planning:**
+> We started our table creation script and use the provided wireframes to intuit a relational design.
+>
+> **Building:**
+> We put together the homepage by developing a responsive design UI, using the Factory Pattern to get the appropriate data, using @model to get the data from our controller into the webpage. Then we built a Web API so we could use AJAX to add a Contact and test it using PostMan. We implemented Dynamic Search, Server Side Validations, and Update Account page.
+> For the database, we created stored procedure to delete and reload sample data. We then created a listings repository which used ADO.NET.
+>
+> **Project Management:**
+> Within the team we dicussed how Test Driven Development can be used to write our update test before we implement the code in our repository. We discussed the advantage behind using IEnumerable in our interfaces, learned that sometimes you have to update your unit tests as you continue to add functionality. We explored how now to not write SQL in our C#, and then go through how to properly create these queries. 
+>
+> Here is the [code](https://github.com/mikechowdiv/ShackApp) for the project. 
 > 
-> Here is the [code](https://github.com/maere/addressbooklocal) for the project. You can see a palimpsest of sorts in the comments where previous iterations of the code were commented out as the code was refactored from a console app, to a Spring servlet app using JSTL, to an Ajax app (in-memory), to its final database implementation. 
 > 
-> Note:  Our search implementation uses lambdas, and when I went to deploy the app, I found out that Java 1.8 was not supported by the cloud host. So since lambdas only work in Java 8 the search function will need to be refactored to work in this particular deployment environment, or we will need to redeploy on another server to show that functionality.  You can look for it in the source code though.
 
 
 ----------
 
 
- [Car Dealership App] (http://car-dealership-app.apphb.com/)
+ [Car Dealership App](http://car-dealership-app.apphb.com/)
  
 > This application was developed as a solo project and we were given about a week. The goal of the project was to create models a simplified version of a car dealership’s website and sales support system.  Like many car dealership sites this application provides a public-facing area which allows users to browse the inventory of new and used vehicles, view current specials, and contact the dealership.  Additionally, for sales personnel there is an area for logging customer information for a purchase and an administrative area for user management, application management, inventory management, and reporting.
 > 
 > **Planning:**
-> To prepare for collaborative work on a more complex application we developed planning documents that included a UML diagram, [wireframes,](https://github.com/mikechowdiv/CarDealerShip/blob/master/Wireframes.pdf) and a [database schema](https://github.com/mikechowdiv/CarDealerShip/tree/master/sql). 
+> To prepare for the work on a more complex application I developed planning documents that included a UML diagram, [wireframes,](https://github.com/mikechowdiv/CarDealerShip/blob/master/Wireframes.pdf) and a [database schema](https://github.com/mikechowdiv/CarDealerShip/tree/master/sql). 
 > 
 > **Building:**
 > I created a multi-tier MVC application on the back-end, Entity Framework for the DB implementation, ASP.NET MVC 5 project with Web API enabled for the UI Layer.  The app provides basic CRUD functionality, and AJAX and jQuery to populate the respective page.  
