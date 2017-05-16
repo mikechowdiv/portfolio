@@ -12,32 +12,32 @@ Lastly, we did not learn deployment, so I have been working through deployment o
 ----------
 
 
-  [Multi-Calculator Basic Web App](http://multicalculator-guildwork.rhcloud.com/) 
+  [DVD Library Database & Web API](https://github.com/mikechowdiv/DvdLibrary/) 
 
-> This was the first MVC web app I built. I refactored a bunch of calculators that I originally developed as console apps and combined them into a web app with a basic front end.  All work on this project is mine. 
+> This was a web app I built using database objects and interacting with them using the C# database access techniques of ADO.NET and Dapper.  The frontend was done using HTML/CSS/Javascript and the database interaction through an ASP.NET Web API project.
 > 
-> Here is the [source code](https://bitbucket.org/maere/multicalculatorapp) for the web app.
+> Here is the [source code](https://github.com/mikechowdiv/DvdLibrary) for the web app.
 
-> (Note: The loan amortization got messed up when I refactored and this needs to be fixed. But here is a [link to the original console app source](https://bitbucket.org/maere/loaninterestcalculator) which actually outputs the correct calculations!)
+
 
 
 ----------
 
 
- [Flooring Master Console App](https://bitbucket.org/maere/flooringmastery) 
+ [Flooring Company](https://github.com/mikechowdiv/swg/tree/master/Flooring) 
 
 > This is a console-based order processing app that persists its data to a text file.  Since this was designed to run in the console, it has no front end currently, but you can view the source code from the link below. 
 > 
-> This project was done with a pairing partner, and our biggest challenges on this project (as neophyte coders) were:
+> This project was done individually, and the biggest challenges on this project were:
 > 
-> -  deciding on the data structures we should use
-> - deciding when and where we needed to instantiate our data structures
+> - deciding on the data structures
+> - deciding when and where to instantiate the data structures
 > - how the classes should relate to each other and how the application should be constructed
-> - making sure all of our unit tests passed after each refactoring iteration
+> - making sure all of the unit tests passed after each refactoring iteration
 > 
 > We learned a lot!
 > 
-> Here is the [code.](https://bitbucket.org/maere/flooringmastery)
+> Here is the [code.](https://github.com/mikechowdiv/swg/tree/master/Flooringy)
 > 
 
 
